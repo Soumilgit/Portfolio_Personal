@@ -1,0 +1,45 @@
+
+
+body{
+    background-image:url('pure-css-snow-animation.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+#navbar{
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:rgb(34, 24, 24);
+}
+#navbar ul {
+    display: flex; 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+#navbar li {
+    padding: 10px 20px;
+   
+}
+
+#navbar a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+#navbar a:hover {
+    color:whitesmoke;
+    border-bottom:4px solid whitesmoke; 
+}
+@media screen and (max-width: 600px) {
+    #welcome-section h1 {
+       font-size: 50px; /* Adjust the font size for smaller screens */
+    }
+   }
